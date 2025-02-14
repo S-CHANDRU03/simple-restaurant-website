@@ -1,0 +1,74 @@
+body{
+    font-family: "Changa", serif;
+}
+.container{
+    text-align: center;
+}
+
+.section-one{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.section-one__button{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.section-two,.section-three,.section-four,.section-five{
+    background-color: white;
+    color: black;
+    width: 300px;
+    display: inline-block;
+    padding: 10px;
+    border: solid black 5px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.section-two__title,.section-three__title,.section-four__title,.section-five__title{
+    padding: 0;
+    margin: 0;
+}
+
+.section-two__desc,.section-three__desc,.section-four__desc,.section-five__desc{
+    padding: 0;
+    margin: 0;
+}
+
+.section-two__button,.section-three__button,.section-four__button,.section-five__button{
+    padding: 0;
+    margin: 0;
+}
+
+.section-two__button,.section-three__button,.section-four__button,.section-five__button{
+    background-color: black;
+    color: white;
+}
+
+.section-two__img,.section-three__img,.section-four__img,.section-five__img{
+    width: 125px;
+    height: 125px;
+}
+.section-six{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding-left: 642.5px;
+    padding-right: 642.5px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.section-six__title{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.section-six__button{
+    background-color: yellow;
+    padding-left: 100px;
+    padding-right: 100px;
+}
